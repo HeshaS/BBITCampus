@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    tools:context=".Contactus" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/CodeFont"
+                android:layout_width="249dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="B AND B INSTITUTE OF"
+                android:textColor="#FF0000" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/CodeFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" TECHNOLOGY"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FF0000" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/CodeFontthree"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="AFFILIATED TO GUJARAT TECHNOLOGICAL " />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/CodeFontthree"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="UNIVERSITY " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-: CONTACT US :-"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#790000"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_horizontal"
+                android:text="Tele Phone"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02692 - 237240"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/CodeFontthree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Information :" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/CodeFontthree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:text="www.bbit.ac.in"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#790000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/black"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-: OFFICE ADDRESS :-"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#790000"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="B and B Institute Of Technology"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="Opposite Iskon Temple,"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:text="MotaBazaar,VVNagar-388120"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

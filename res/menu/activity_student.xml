@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/homeicon"
+        >
+        <menu>
+            
+            <item android:id="@+id/grades"  android:title="Grades" android:icon="@drawable/gradeicon"/>
+            <item android:id="@+id/departmentdirectory"  android:title="Department Directory" android:icon="@drawable/deptdirectory"/>
+            <item android:id="@+id/dampusevents" android:title="Campus Events" android:icon="@drawable/event"/>
+            <item android:id="@+id/library"  android:title="Library" android:icon="@drawable/libraryicon"/>
+             <item android:id="@+id/photos"  android:title="Photos" android:icon="@drawable/photosicon"/>
+             <item android:id="@+id/videos"  android:title="Videos" android:icon="@drawable/videosicon"/>
+              <item android:id="@+id/social"  android:title="Social" android:icon="@drawable/socialicon"/>
+           
+            
+        </menu>
+        </item>
+
+</menu>

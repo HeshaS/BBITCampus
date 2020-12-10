@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Home"
+        android:icon="@drawable/homeicon"
+        
+     >
+        <menu>
+            
+            <item android:id="@+id/Registration"  android:title="Student Registration" android:icon="@drawable/registraion"/>
+            <item android:id="@+id/loginapp" android:title="Sign In" android:icon="@drawable/login"/>
+            <item android:id="@+id/Contactus" android:title="Contact Us" android:icon="@drawable/contactus" />
+            
+                 <item android:id="@+id/AboutUs" android:title="About Us" android:icon="@drawable/ic_launcher" />
+        </menu>
+        </item>
+
+</menu>

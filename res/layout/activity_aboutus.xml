@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/CodeFont"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="B AND B INSTITUTE OF"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/CodeFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" TECHNOLOGY"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/CodeFontthree"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="AFFILIATED TO GUJARAT TECHNOLOGICAL " />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/CodeFontthree"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="UNIVERSITY " />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="74dp"
+        android:text="Principal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/textView6"
+        android:text="Message"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Imparting technical knowledge with value added development for the youth of Charotar region, the chairman Charutar Vidya Mandal- Dr. C. L. Patel has taken initiatives to start first of its kind self finance institute in Gujarat. This vision has taken shape of Bhailalbhai and Bhikhabhai Institute of Technology, popularly known as BBIT. "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="39dp"
+        android:text="-Mr.K.M.Makwana"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
